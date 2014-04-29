@@ -1,0 +1,83 @@
+.reveal section img.no-border {
+	border: 0;
+	background: none;
+	box-shadow: none;
+}
+
+.reveal .highlight {
+	color: #13daec;
+}
+
+.reveal .content {
+	/*font-size: .8em;*/
+	/*line-height: 1.2;*/
+}
+
+.reveal .left {
+	float: left;
+}
+
+.reveal .full-width {
+	width: 100%;
+}
+
+.reveal .images {
+	position: relative;
+	min-height: 500px;
+}
+
+.reveal .images:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.reveal .images .fragment {
+	position: absolute;
+}
+
+.reveal .images .left {
+	width: 25%;
+	margin: 35px;
+}
+
+
+.reveal .images .phones {
+	top: 75px;
+	left: 100px;
+}
+
+.reveal .images .osx {
+	top: 50px;
+	left: 50px;
+}
+
+.reveal .images .lion {
+	top: 60px;
+	right: 0;
+}
+
+.reveal .images .mavericks {
+	top: 25px;
+	left: 100px;
+}
+
+.reveal .images .winxppro {
+	top: 50px;
+	right: 0;
+}
+
+.reveal .images .windows7 {
+	top: 100px;
+	left: 0;
+}
+
+.reveal .images .windows8 {
+	top: 25px;
+	left: 50px;
+}
+
+.reveal .images .terminator {
+	top: 50px;
+	left: 100px;
+}
