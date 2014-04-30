@@ -47,41 +47,41 @@
 
 
 .reveal .images .phones {
-	top: 75px;
+	top: -15px;
 	left: 100px;
 }
 
 .reveal .images .osx {
-	top: 50px;
+	top: 0;
 	left: 50px;
 }
 
 .reveal .images .lion {
-	top: 60px;
+	top: -5px;
 	right: 0;
 }
 
 .reveal .images .mavericks {
-	top: 25px;
+	top: -10px;
 	left: 100px;
 }
 
 .reveal .images .winxppro {
-	top: 50px;
+	top: 0;
 	right: 0;
 }
 
 .reveal .images .windows7 {
-	top: 100px;
+	top: -20px;
 	left: 0;
 }
 
 .reveal .images .windows8 {
-	top: 25px;
+	top: -15px;
 	left: 50px;
 }
 
 .reveal .images .terminator {
-	top: 50px;
+	top: 0;
 	left: 100px;
 }

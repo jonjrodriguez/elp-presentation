@@ -46,7 +46,7 @@
 						<li class="fragment"><strong class="highlight">Who</strong> is responsible for security?</li>
 						<li class="fragment"><strong class="highlight">What</strong> are our biggest concerns?</li>
 						<li class="fragment"><strong class="highlight">How</strong> are we impacted by security?</li>
-						<li class="fragment"><strong class="highlight">Why</strong> do security and culter clash?</li>
+						<li class="fragment"><strong class="highlight">Why</strong> do security and culture clash?</li>
 						<li class="fragment"><strong class="highlight">Where</strong> do culture clashes and solutions meet?</li>
 					</ul>
 				</section>
@@ -146,7 +146,7 @@
 						<ul>
 							<li>Silos and security policies</li>
 						</ul>
-						<img class="no-border full-width" src="photos/stupid.jpg">
+						<img class="no-border stretch" src="photos/stupid.jpg">
 					</section>
 				</section>
 
@@ -158,17 +158,28 @@
 						<video data-autoplay src="videos/real-world-examples.mp4"></video>
 					</section>
 					<section>
-						<blockquote>
-							&ldquo;Do we want to be there?&rdquo;
+						<blockquote class="bottom">
+							<p>Do we want to be on the front page of New York Times?</p>
 						</blockquote>
-						<h1>No!</h1>
+						<h1 class="fragment">No!</h1>
+					</section>
+					<section>
 						<img class="stretch" src="photos/target.jpg">
 					</section>
 					<section>
 						<img class="stretch" src="photos/umd.png">
 					</section>
 					<section>
+						<img height="300px" src="photos/stanford.png">
+						<img height="335px" src="photos/indiana.png">
+					</section>
+					<section>
 						<img class="stretch no-border" src="photos/heartbleed.png">
+					</section>
+					<section>
+						<img height="300px" src="photos/nytimes.png">
+						<img height="300px" src="photos/cnn.png">
+						<img height="300px" src="photos/bbc.png">
 					</section>
 				</section>
 
@@ -182,19 +193,12 @@
 					<section>
 						<h2>Why do security and culture clash?</h2>
 						<ul>
-							<li>Security is seen as an inconvenience to many</li>
-							<li>Culture does not support the need for a secure campus</li>
-							<li>Big brother monitoring not favored by the community</li>
-							<li>Free exchange of data expected</li>
+							<li>Security is seen as an inconvenience</li>
+							<li>Users demand free exchange of data</li>
 							<li>Convenience of a single, open campus</li>
+							<li>Big brother monitoring not favored</li>
 							<li>Trust issues</li>
 						</ul>
-					</section>
-					<section>
-						<img class="stretch no-border" src="photos/pw-req.png">
-					</section>
-					<section>
-						<img class="stretch no-border" src="photos/pw-post-it.jpg">
 					</section>
 					<section>
 						<img class="stretch no-border" src="photos/nyucampus.jpg">
@@ -204,9 +208,8 @@
 						<ul>
 							<li>Password changes and SSO integration</li>
 							<li>Lack of central authority, individual accountability and communication</li>
-							<li>People glaze over</li>
 							<li>Lack of user training / education</li>
-							<li>Lack of accountability / communication</li>
+							<li>People glaze over</li>
 						</ul>
 					</section>
 					<section>
@@ -218,6 +221,7 @@
 							<li>Difficult to manage many operating systems</li>
 							<li>NYU IT teams not closely communicating</li>
 							<li>Vendors not compliant with industry specs</li>
+							<li>Different security policies throught NYU</li>
 							<li>Don't learn from previously unsuccessful methods of training the user</li>
 							<li>High expectations</li>
 						</ul>
@@ -266,7 +270,10 @@
 						<h2>Wrap up</h2>
 					</section>
 					<section>
-						<video data-autoplay src="videos/passwords.mp4"></video>
+						<video id="lastVideo" data-autoplay src="videos/passwords.mp4"></video>
+					</section>
+					<section>
+						<h1>PASSWORDS!!</h1>
 					</section>
 				</section>
 
@@ -307,6 +314,12 @@
 					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
 				]
 			});
+
+			lastVideo = document.getElementById('lastVideo');
+
+			lastVideo.onended = function(e) {
+				Reveal.next();
+			}
 
 		</script>
 
